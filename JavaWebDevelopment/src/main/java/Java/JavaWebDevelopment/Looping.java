@@ -21,12 +21,8 @@ public class Looping {
 				h++;
 			}
 			while(h<=10);
-
 	}
-
 }
-
-
 //Looping statement
 //(53 keywords are using in java)
 //looping is used to repeat a set of instruction again to again.
