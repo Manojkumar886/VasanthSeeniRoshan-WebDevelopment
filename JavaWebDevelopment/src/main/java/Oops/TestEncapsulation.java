@@ -1,11 +1,20 @@
 package Oops;
 
+class home
+{
+	public void book()
+	{
+		System.out.println("reading and writing");
+	}
+}
 public class TestEncapsulation {
 
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
 		student stu=new student();
+		home obj=new home();
+		obj.book();
 		stu.setAge(22);
 		System.out.println(stu.getAge());
 	}

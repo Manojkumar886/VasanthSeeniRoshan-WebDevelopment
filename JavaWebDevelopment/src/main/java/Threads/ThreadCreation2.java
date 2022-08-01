@@ -8,9 +8,9 @@ public class ThreadCreation2 implements Runnable
 		ThreadCreation2 obj1=new ThreadCreation2();
 		Thread obj=new Thread(obj1);
 		obj.start();
-//		Thread.currentThread().setPriority(9);
-//		Thread.currentThread().getPriority();
-//		Thread.currentThread().getId();
+		Thread.currentThread().setPriority(9);
+		Thread.currentThread().getId();
+		System.out.println(Thread.currentThread().getPriority());
 
 	}
 

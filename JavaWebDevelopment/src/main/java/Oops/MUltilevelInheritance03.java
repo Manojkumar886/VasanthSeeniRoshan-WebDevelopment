@@ -14,6 +14,5 @@ public class MUltilevelInheritance03 extends MultilevelInheritance02
 		over.eating();
 		over.monkey();
 		over.animal();
-
 	}
 }
