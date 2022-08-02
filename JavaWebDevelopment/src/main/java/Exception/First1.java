@@ -21,7 +21,7 @@ public class First1 {
 		}
 		catch(ArithmeticException ar)
 		{
-			System.out.println(ar);
+			//System.out.println(ar);
 			
 		}
 	}
